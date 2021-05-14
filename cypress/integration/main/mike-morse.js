@@ -76,7 +76,7 @@ describe('Select CONTACT US demo', () => {
       // should bring you to https://cp-intake.herokuapp.com/FIRM-HERE/contact-us
     cy.url().should('include', 'contact-us')
       // design of page should match the respective firm 
-    cy.contains('Frantz Law Group')
+    cy.contains('mike@855mikewins.com')
   })
 })
 
@@ -87,7 +87,7 @@ describe('Select ABOUT OUR FIRM demo', () => {
       // should bring you to https://cp-intake.herokuapp.com/FIRM-HERE/about-us
     cy.url().should('include', 'about-us')
       // design of page should match the respective firm 
-    cy.contains('CasePacer')
+    cy.contains(' Mike Morse Law Firm')
   })
 })
 
