@@ -61,3 +61,17 @@ describe("Select form and fill out + submit", () => {
 
 // 10 Repeat until there are no more incomplete forms 
     // PASSED WHEN: you see screen with "Great work! All forms have been completed"
+
+
+        // 4 Fill out the pages 
+    // cy.get('.css-1pcexqc-container').click()
+    // cy.get('.rs__single-value').click()
+    // cy.get('input[name=data[3].Answer]').type('10,000')
+    // cy.get('.CheckboxField__Check-sc-1j6v60x-0').click()
+    // cy.contains('Next Page').click()
+    // // 5 Click "finish and submit"
+    //     // ~~ form should be moved to completed tab ~~~
+    // cy.contains('Finish and Submit').click()
+    // cy.contains('Finish and Submit').click()
+    // cy.url().should('include', '/cases') 
+    // cy.contains("Great Work! All Forms have beeen completed")
