@@ -68,7 +68,7 @@ describe('Select CONTACT US in nav', () => {
     cy.get('input[name=lastName]').type('Test')
     cy.get('input[name=email]').type('siobahn+test@graveflex.com')
     cy.get('input[name=phoneNumber').type('702-449-8904')
-    cy.get('textarea[name=textBody]').type('automated test run')
+    cy.get('textarea[name=textBody]').type('automated test run FLG')
     cy.get('.contact-us__ButtonTextContainer-bavewd-35').click()
     cy.wait(500)
   })
@@ -85,7 +85,7 @@ describe('Select ABOUT OUR FIRM in nav', () => {
 
 // 6 LOG OUT
 describe('Log Out User', () => {
-  it('successfully logs out user', () => {
+  it('TEST SCENARIO 2.', () => {
     cy.contains('PROFILE').click()
     cy.wait(500)
     cy.url().should('include', '/profile')
@@ -97,7 +97,7 @@ describe('Log Out User', () => {
 
 // 5 FORGOT PASSWORD
 describe('Forgot Password', () => {
-  it('successfully sends email with reset instructions', () => {
+  it('TEST SCENARIO 2.x', () => {
     cy.visit('https://cp-intake.herokuapp.com/flg/sign-in')
     cy.contains('Forgot Password?').click()
     cy.url().should('include', 'password-reset')
